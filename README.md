@@ -1,4 +1,5 @@
 # TPPOO
-Tp POO Ensim
-![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
+Tp POO Ensim \n
+[![Java CI with Maven](https://github.com/Florian-Bauge/TPPOO/actions/workflows/maven.yml/badge.svg)](https://github.com/Florian-Bauge/TPPOO/actions/workflows/maven.yml)
+
 
