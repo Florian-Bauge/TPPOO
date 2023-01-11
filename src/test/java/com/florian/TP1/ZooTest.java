@@ -1,6 +1,9 @@
 package com.florian.TP1;
 
 import org.junit.jupiter.api.Test;
+import org.springframework.util.Assert;
+
+import static org.springframework.test.util.AssertionErrors.assertTrue;
 
 public class ZooTest {
     @Test
@@ -11,7 +14,8 @@ public class ZooTest {
             for (int i = 0; i <16 ; i++) {
                 zoo.nouveauVisiteur();}
         }
-        catch (LimiteVisiteurException e)
+        catch (LimiteVisiteurException e){
+            assertTrue("Limite visiteur atteinte",true);
 
 
 
