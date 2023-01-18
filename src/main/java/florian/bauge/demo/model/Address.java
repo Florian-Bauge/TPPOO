@@ -1,12 +1,20 @@
 package florian.bauge.demo.model;
 
 
+
+//
+//import javax.persistence.Entity;
+//import javax.persistence.GeneratedValue;
+//import javax.persistence.Id;
+//import java.sql.Date;
+
+import org.hibernate.annotations.Entity;
 import org.springframework.data.annotation.Id;
 
 import javax.persistence.GeneratedValue;
 import java.sql.Date;
 
-
+@Entity
 public class Address {
     @Id
     @GeneratedValue

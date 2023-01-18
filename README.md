@@ -22,7 +22,10 @@ Thymeleaf : n template engine (moteur de rendu de document) écrit en Java conç
 3 - On l'envoie avec la fonction  model.addAttribute("nomTemplate", nameGET); qui affecte à la variable "nomTemplate" nameGet et qui l'envoie au fichier html.
 
 <h2> Étape 17</h2>
-La talbe adresse est créée dans la BDD
+La talbe adresse est créée dans la BDD 
 <h2> Étape 18</h2>
 
 Hibernate facilite la persistence et la recherche de données dans une base de données en réalisant lui-même la création des objets et les traitements de remplissage de ceux-ci en accédant à la base de données. La quantité de code ainsi épargnée est très importante d'autant que ce code est généralement fastidieux et redondant.
+<h2> Étape 19</h2>
+Non, je ne vois pas le contenue de la base.
+Pour résoudre le problème on crée la base dans le fichier SQL

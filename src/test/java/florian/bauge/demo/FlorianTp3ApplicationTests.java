@@ -8,7 +8,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 class FlorianTp3ApplicationTests {
 
 	@Test
-	@Disabled
 	void contextLoads() {
 	}
 
