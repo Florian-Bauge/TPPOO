@@ -1,9 +1,11 @@
 package florian.bauge.demo.model;
 
+
 import org.springframework.data.annotation.Id;
 
 import javax.persistence.GeneratedValue;
-import java.util.Date;
+import java.sql.Date;
+
 
 public class Address {
     @Id
