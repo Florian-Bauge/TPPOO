@@ -8,7 +8,7 @@ import org.springframework.ui.Model;
 
 
 @Controller
-public class AddressController {
+public class AddressesController {
     @Autowired
     AddressRepository addressRepository;
     @GetMapping("/addresses")
