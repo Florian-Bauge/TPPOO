@@ -5,7 +5,7 @@
   <meta http-equiv="Content-Type" content="text/html ; charset=UTF-8" />
 </head>
 <body>
-<a th:href="@{/greeting}"><i class="(Put css class here)"></i> Greeting </a>
+<header th:insert="general :: footer"> </header>
 <h1>Les differentes adresses</h1>
 <ul th:each="address:${allAddresses}">
   <li th:text="${address.content }" /> <span th:text="${address.auteur }"></span>

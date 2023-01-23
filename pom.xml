@@ -8,7 +8,7 @@
 		<version>2.7.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>Jourdes</groupId>
+	<groupId>Bauge</groupId>
 	<artifactId>TP3</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>TP3</name>
@@ -50,6 +50,7 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
 	</dependencies>
 
 	<build>

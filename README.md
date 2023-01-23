@@ -30,3 +30,7 @@ Hibernate facilite la persistence et la recherche de données dans une base de d
 Oui, je vois le contenue dans la table
 <h2> Étape 22</h2>
 permet d'activer l'injection automatique de dépendance
+<h2> Étape 30</h2>
+Pour ajouter bootstrap,j'ai ajouté ces 2 lignes dans le html : <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+Je l'ai mise dans le général, pour que celle-ci soit activer sur toutes les pages.
