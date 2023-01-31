@@ -12,10 +12,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class MeteoController {
     @Autowired
      AddressRepository addressRepository;
-    @PostMapping("/meteo")
+    @PostMapping ("/meteo")
     public String meteo(@RequestParam(name="adresse", required=false, defaultValue="World") String
                                    adresse, Model model) {
-        model.addAttribute("adresse", adresse);
+        model.addAttribute("nomTemplate", adresse);
         return "meteo";
     }
 
