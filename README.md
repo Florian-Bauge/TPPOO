@@ -34,3 +34,21 @@ permet d'activer l'injection automatique de dépendance
 Pour ajouter bootstrap,j'ai ajouté ces 2 lignes dans le html : <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 Je l'ai mise dans le général, pour que celle-ci soit activer sur toutes les pages.
+
+<h1> TP4 </h1>
+<h2>étape 6</h2>
+• Faut-il une clé API pour appeler MeteoConcept ?<br>
+Oui on a besoin d'un token pour appeler MeteoConcept<br>
+• Quelle URL appeler ?<br>
+https://api.meteo-concept.com/api/forecast/daily?token=token&insee=citycode <br>
+• Quelle méthode HTTP utiliser ?<br>
+Méthode GET <br>
+• Comment passer les paramètres d'appels ? <br>
+En paramètre dans la méthode Get dans le lien d'appel de l'API <br>
+• Où est l'information dont j'ai besoin dans la réponse :
+• Pour afficher la température du lieu visé par les coordonnées GPS
+L'information est dans le fichier JSON que renvoie l'appels au niveau de tmin et tmax avec day=1 <br> 
+• Pour afficher la prévision de météo du lieu visé par les coordonnées GPS <br> 
+L'information est dans le fichier JSON que renvoie l'appels au niveau de tmin et tmax avec day différent de 1  <br> 
+
+

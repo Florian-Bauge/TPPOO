@@ -32,6 +32,10 @@ public class MeteoController {
         model.addAttribute("adresseTrue",properties.getString("label"));
         String citycode=properties.getString("citycode");
         String meteo=restTemplate.getForObject("https://api.meteo-concept.com/api/forecast/daily?token=aa2b3971e787dd53f34d4480f58e581dcaa864d6fca27439e64b87474b2f67b7&insee="+citycode,String.class);
+        JSONObject jsonObject1=new JSONObject(meteo);
+        JSONObject forecat=jsonObject1.getJSONArray("forecast").getJSONObject(0);
+        model.addAttribute("tmin",forecat.getDouble("tmin"));
+        model.addAttribute("tmax",forecat.getDouble("tmax"));
 
 
         return "meteo";
